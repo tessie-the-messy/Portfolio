@@ -1,0 +1,35 @@
+:root {
+    --blue: #6783a4;
+    --green: #86d795;
+    --pink: #f68e8f;
+    --white: #f2dcc9;
+  }
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #B0D4B8;
+}
+header {
+    background-color: #5D7B6F;
+    color: #EAE7D6;
+}
+
+/* possibly add marigin for Welcome */
+h1 {
+    text-align: center;
+}
+
+.page {
+    text-align: right;
+}
+
+.select {
+    display: inline;
+}
+
+h2 {
+    color: #EAE7D6;
+    text-align: center;
+}
