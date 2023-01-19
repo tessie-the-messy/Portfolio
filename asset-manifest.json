@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Tessa-Robinson-Portfolio/static/css/main.ac4af3ab.css",
+    "main.js": "/Tessa-Robinson-Portfolio/static/js/main.bdf23f7b.js",
+    "static/js/787.4c1b0035.chunk.js": "/Tessa-Robinson-Portfolio/static/js/787.4c1b0035.chunk.js",
+    "static/media/TessaPic.jpg": "/Tessa-Robinson-Portfolio/static/media/TessaPic.c5eb9d96f54da9347343.jpg",
+    "index.html": "/Tessa-Robinson-Portfolio/index.html",
+    "main.ac4af3ab.css.map": "/Tessa-Robinson-Portfolio/static/css/main.ac4af3ab.css.map",
+    "main.bdf23f7b.js.map": "/Tessa-Robinson-Portfolio/static/js/main.bdf23f7b.js.map",
+    "787.4c1b0035.chunk.js.map": "/Tessa-Robinson-Portfolio/static/js/787.4c1b0035.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ac4af3ab.css",
+    "static/js/main.bdf23f7b.js"
+  ]
+}
