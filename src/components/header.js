@@ -1,10 +1,10 @@
 import React from 'react';
+import Navigation from './navigation';
 
 const Header = () => {
     return(
     <header>
-        <h1>Tessa</h1>
-        <h2>Robinson</h2>
+        <Navigation />
     </header>
     );
 };

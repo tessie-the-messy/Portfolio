@@ -3,11 +3,17 @@ import React from 'react';
 const Navigation = () => {
     return(
         <nav>
-            <ul>
-                <li>About Me</li>
-                <li>Projects</li>
-                <li>Contact</li>
-            </ul>
+            <div>
+  <h1>*~Welcome~*</h1>
+  <ul className="page">
+    <li className="select"><a href="#">Home</a></li>
+    <li className="select"><a href="#about">About Me</a></li>
+    <li className="select"><a href="#skills">Skills</a></li>
+    <li className="select"><a href="#projects">Projects</a></li>
+    <li className="select"><a href="#contact">Contact</a></li>
+  </ul>
+</div>
+
         </nav>
     )
 };
