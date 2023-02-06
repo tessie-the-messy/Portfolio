@@ -1,20 +1,20 @@
 import "./App.css";
-import Header from "./components/header";
-import Footer from "./components/footer";
-import AboutMe from "./components/AboutMe";
-import Contact from "./components/Contact";
-import Projects from "./components/Projects";
+import { BrowserRouter as Router, Route, Routes} from "react-router-dom"
+
+import AboutMe from "./components/Pages/AboutMe"
+import Projects from "./components/Pages/Projects"
+import Contact from "./components/Pages/Contact"
 
 function App() {
-  return (<div>
-    <Header />
-    <main>
-    <AboutMe />
-    <Projects />
-    <Contact />
-    </main>
-    <Footer />
-  </div>);
+  return (
+   <Router>
+      <Routes>
+        <Route path="/" element={<AboutMe />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+   </Router>
+  );
 }
 
 export default App;

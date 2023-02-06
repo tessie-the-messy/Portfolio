@@ -1,25 +1,26 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Navigation = () => {
   return (
     <nav>
       <div>
         <ul className="page">
-          <li className="select">
-            <a href="#">Home</a>
-          </li>
-          <li className="select">
-            <a href="#about">About Me</a>
-          </li>
-          <li className="select">
-            <a href="#skills">Skills</a>
-          </li>
-          <li className="select">
-            <a href="#projects">Projects</a>
-          </li>
-          <li className="select">
-            <a href="#contact">Contact</a>
-          </li>
+          <Link to={"/"}>
+            <a>
+              <li className="select">About Me</li>
+            </a>
+          </Link>
+          <Link to={"/projects"}>
+            <a>
+              <li className="select">Projects</li>
+            </a>
+          </Link>
+          <Link to={"/contact"}>
+            <a>
+              <li className="select">Contact</li>
+            </a>
+          </Link>
         </ul>
       </div>
     </nav>

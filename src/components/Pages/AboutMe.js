@@ -1,6 +1,6 @@
 import React from "react";
-import Header from "./header";
-import Footer from "./footer";
+import Header from "../header";
+import Footer from "../footer";
 
 const AboutMe = () => {
   return (
@@ -9,7 +9,7 @@ const AboutMe = () => {
       <div>
         <h2 id="about">About Me</h2>
         <section>
-          <img src={require("../TessaPic.jpg")} width="250px" height="250px" />
+          <img src={require("../../assets/TessaPic.jpg")} width="250px" height="250px" />
           <p>
             My name is Tessa, and I'm currently studying to be a web developer
             through DU's Full-Stack Flex program. I recieved my B.A. from the
