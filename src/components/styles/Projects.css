@@ -7,7 +7,14 @@
     height: 175px;
     width: 175px;
     margin: auto;
-}
-.small-image:hover, .large-image:hover {
-    opacity: .5;
 } */
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img:hover {
+    opacity: .5;
+}
