@@ -1,56 +1,46 @@
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 body {
-    background-color: #B0D4B8;
-}
-header {
-    background-color: #5D7B6F;
-    color: #EAE7D6;
+  background-color: #b0d4b8;
 }
 
-/* possibly add marigin for Welcome */
+/* Header/Nav */
+header {
+  background-color: #5d7b6f;
+  color: #eae7d6;
+}
+
 h1 {
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 45px;
+  padding-top: 40px;
 }
 
 .page {
-    text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  text-align: right;
 }
 
 .select {
-    display: inline;
+  display: inline;
+  padding: 10px;
 }
+
+/* Default settings for all pages */
 
 h2 {
-    color: #5D7B6F;
+  color: #5d7b6f;
+  text-align: center;
+  font-size: 35px;
 }
+
+/* Footer */
 
 footer {
-    text-align: center
-}
-
-.info {
-    display:flex;
-    justify-content:center;
-    list-style: none;
-}
-
-.abc {
-    margin-left: 2%;
-    margin-right: 2%;
-}
-
-.images {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.small-image {
-    height: 175px;
-    width: 175px;
-    margin: auto;
-}
-.small-image:hover, .large-image:hover {
-    opacity: .5;
+  padding-top: 50px;
+  text-align: center;
 }

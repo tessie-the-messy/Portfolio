@@ -1,0 +1,13 @@
+/* .images {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.small-image {
+    height: 175px;
+    width: 175px;
+    margin: auto;
+}
+.small-image:hover, .large-image:hover {
+    opacity: .5;
+} */

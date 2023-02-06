@@ -1,15 +1,16 @@
 import React from "react";
 import Header from "../header";
 import Footer from "../footer";
+import "../styles/AboutMe.css";
 
 const AboutMe = () => {
   return (
     <div>
       <Header />
       <div>
-        <h2 id="about">About Me</h2>
-        <section>
-          <img src={require("../../assets/TessaPic.jpg")} width="250px" height="250px" />
+        <h2 >About Me</h2>
+        <section className="about">
+          <img src={require("../../assets/TessaPic.jpg")} width="200px" height="250px" />
           <p>
             My name is Tessa, and I'm currently studying to be a web developer
             through DU's Full-Stack Flex program. I recieved my B.A. from the
@@ -20,10 +21,10 @@ const AboutMe = () => {
             adventures.
           </p>
         </section>
-        <h2 id="skills">Skills</h2>
+        <h3 id="skills">Skills</h3>
         <section>
           <p>Upon graduation, I will have learned:</p>
-          <ul>
+          <ul className="skills">
             <li>HTML and CSS</li>
             <li>Git</li>
             <li>JavaScript</li>

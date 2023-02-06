@@ -8,13 +8,13 @@ const Projects = () => {
       <Header />
       <div>
         <h2 id="projects">Projects</h2>
-        <a href="https://tessie-the-messy.github.io/Challenge1/">
+        {/* <a href="https://tessie-the-messy.github.io/Challenge1/">
           <img
             className="large-image"
-            src="https://user-images.githubusercontent.com/115903135/198140970-cb176a91-94c0-4c65-b660-e6ec29b93d80.png"
+            src="./assets/Horiseonimg.png"
             alt
           />
-        </a>
+        </a> */}
         <section className="images">
           <h3>prepUrself</h3>
           <a href="https://bencha27.github.io/prepUrself/">
