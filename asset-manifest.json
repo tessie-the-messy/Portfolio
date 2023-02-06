@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/Tessa-Robinson-Portfolio/static/css/main.ac4af3ab.css",
-    "main.js": "/Tessa-Robinson-Portfolio/static/js/main.e98e073a.js",
-    "static/js/787.4c1b0035.chunk.js": "/Tessa-Robinson-Portfolio/static/js/787.4c1b0035.chunk.js",
+    "main.css": "/Tessa-Robinson-Portfolio/static/css/main.4b46b4a9.css",
+    "main.js": "/Tessa-Robinson-Portfolio/static/js/main.d91a4210.js",
     "static/media/TessaPic.jpg": "/Tessa-Robinson-Portfolio/static/media/TessaPic.c5eb9d96f54da9347343.jpg",
+    "static/media/hogwarts.png": "/Tessa-Robinson-Portfolio/static/media/hogwarts.067cb036c2516e16e369.png",
+    "static/media/devLog.png": "/Tessa-Robinson-Portfolio/static/media/devLog.0252f23bc2378e46649b.png",
+    "static/media/prepUrself.png": "/Tessa-Robinson-Portfolio/static/media/prepUrself.7a1bf9c107f18be9c8d7.png",
     "index.html": "/Tessa-Robinson-Portfolio/index.html",
-    "main.ac4af3ab.css.map": "/Tessa-Robinson-Portfolio/static/css/main.ac4af3ab.css.map",
-    "main.e98e073a.js.map": "/Tessa-Robinson-Portfolio/static/js/main.e98e073a.js.map",
-    "787.4c1b0035.chunk.js.map": "/Tessa-Robinson-Portfolio/static/js/787.4c1b0035.chunk.js.map"
+    "main.4b46b4a9.css.map": "/Tessa-Robinson-Portfolio/static/css/main.4b46b4a9.css.map",
+    "main.d91a4210.js.map": "/Tessa-Robinson-Portfolio/static/js/main.d91a4210.js.map"
   },
   "entrypoints": [
-    "static/css/main.ac4af3ab.css",
-    "static/js/main.e98e073a.js"
+    "static/css/main.4b46b4a9.css",
+    "static/js/main.d91a4210.js"
   ]
 }
