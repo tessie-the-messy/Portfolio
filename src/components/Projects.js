@@ -1,11 +1,11 @@
 import React from "react";
 import Header from "./header";
-import Navigation from "./navigation";
 import Footer from "./footer";
 
 const Projects = () => {
   return (
     <div>
+      <Header />
       <div>
         <h2 id="projects">Projects</h2>
         <a href="https://tessie-the-messy.github.io/Challenge1/">
@@ -47,6 +47,7 @@ const Projects = () => {
           />
         </section>
       </div>
+      <Footer />
     </div>
   );
 };
