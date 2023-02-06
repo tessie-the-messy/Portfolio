@@ -7,10 +7,7 @@
    Refactored original portfolio into a React App. Still a work in progress, especially in terms of styling.
     
   ## Table of Contents
-  ### - [Installation](#installation)
   ### - [Usage](#usage)
-  ### - [Tests](#tests)
-  ### - [Credits](#credits)
   ### - [License](#license)
   ### - [Contact](#contact)
 
