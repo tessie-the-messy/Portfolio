@@ -91,29 +91,23 @@ footer {
   font-family: 'Monofett', cursive;
 }
 
-h1 {
+.foot {
   margin: 0;
   margin-right: 20px;
   text-align:end;
-  
+  text-shadow:
+-1px 0px 0px var(--black),
+1px 0px 0px var(--black),
+0px -1px 0px var(--black),
+0px 1px 0px var(--black)
 }
 
 .tessa {
   font-size: 95px;
   color: var(--green);
-  text-shadow:
--1px 0px 0px var(--black),
-1px 0px 0px var(--black),
-0px -1px 0px var(--black),
-0px 1px 0px var(--black)
 }
 
 .robinson {
   font-size: 59px;
   color: var(--pink);
-  text-shadow:
--1px 0px 0px var(--black),
-1px 0px 0px var(--black),
-0px -1px 0px var(--black),
-0px 1px 0px var(--black)
 }

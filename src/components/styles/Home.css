@@ -1,0 +1,38 @@
+h1 {
+  font-family: "Monofett", cursive;
+  text-align: center;
+  text-shadow: -1px 0px 0px var(--black), 1px 0px 0px var(--black),
+    0px -1px 0px var(--black), 0px 1px 0px var(--black);
+  margin: 0px;
+}
+
+.fName {
+  color: var(--green);
+  font-size: 100px;
+}
+
+.lName {
+  color: var(--pink);
+  font-size: 62px;
+}
+
+.cardContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  width: 437px;
+  height: 357px;
+}
+
+.card {
+  border: 1px solid #000000;
+  border-radius: 10px;
+}
+
+.top {
+  width: 437px;
+  background: #86d795;
+  border-bottom: 1px solid #000000;
+}
