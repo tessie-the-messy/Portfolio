@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Monofett&display=swap');
+
 :root {
   --blue: #6783a4;
   --lblue: #aab6d3;
@@ -86,4 +88,32 @@ h2 {
 footer {
   padding-top: 50px;
   text-align: center;
+  font-family: 'Monofett', cursive;
+}
+
+h1 {
+  margin: 0;
+  margin-right: 20px;
+  text-align:end;
+  
+}
+
+.tessa {
+  font-size: 95px;
+  color: var(--green);
+  text-shadow:
+-1px 0px 0px var(--black),
+1px 0px 0px var(--black),
+0px -1px 0px var(--black),
+0px 1px 0px var(--black)
+}
+
+.robinson {
+  font-size: 59px;
+  color: var(--pink);
+  text-shadow:
+-1px 0px 0px var(--black),
+1px 0px 0px var(--black),
+0px -1px 0px var(--black),
+0px 1px 0px var(--black)
 }
