@@ -1,4 +1,5 @@
 import React from "react";
+import 'bootstrap/dist/css/bootstrap.css';
 import Header from "../header";
 import "../styles/Home.css";
 
@@ -10,6 +11,7 @@ const Home = () => {
         <h1 className="fName">Tessa</h1>
         <h1 className="lName">Robinson</h1>
       </div>
+      
       <div className="cardContainer">
         <button className="card">
           <div className="top">

@@ -1,4 +1,5 @@
 import React from "react";
+import 'bootstrap/dist/css/bootstrap.css';
 import Header from "../header";
 import Footer from "../footer";
 import "../styles/Contact.css"
