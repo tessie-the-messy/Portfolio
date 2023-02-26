@@ -33,7 +33,7 @@ header {
 
 .topBox {
   background-color: var(--green);
-  border-bottom: 1px solid #000000;
+  border-bottom: 2px solid #000000;
 }
 
 .welcome {
@@ -49,7 +49,7 @@ header {
 
 .navBox {
   background-color: var(--lblue);
-  border-bottom: 1px solid #000000;
+  border-bottom: 2px solid #000000;
 }
 
 nav {
@@ -78,7 +78,7 @@ ul {
   width: 50%;
   background-color: var(--grey);
   border-radius: 10px;
-  border: 1px solid #000000;
+  border: 2px solid #000000;
 }
 
 .fakeUrlText {

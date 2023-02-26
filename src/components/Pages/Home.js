@@ -12,22 +12,28 @@ const Home = () => {
         <h1 className="lName">Robinson</h1>
       </div>
       
-      <div className="cardContainer">
-        <button className="card">
-          <div className="top">
-            <h3>About Me</h3>
+      <div className="container">
+        <div className= "d-flex justify-content-between">
+
+        <div className="card homeCard">
+          <div className="card-header">
+            <h3 className ="card-title">About Me</h3>
           </div>
-        </button>
-        <button className= "card">
-          <div className="top">
-            <h3>Projects</h3>
+          <div className="card-body"></div>
+        </div>
+        <div className= "card homeCard">
+          <div className="card-header">
+            <h3 className ="card-title">Projects</h3>
           </div>
-        </button>
-        <button className= "card">
-          <div className="top">
-            <h3>Contact</h3>
+          <div className="card-body"></div>
+        </div>
+        <div className= "card homeCard">
+          <div className="card-header">
+            <h3 className ="card-title">Contact</h3>
           </div>
-        </button>
+          <div className="card-body"></div>
+        </div>
+        </div>
       </div>
     </div>
   );

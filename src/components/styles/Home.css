@@ -1,25 +1,27 @@
 h1 {
   font-family: "Monofett", cursive;
   text-align: center;
-  text-shadow: -1px 0px 0px var(--black), 1px 0px 0px var(--black),
-    0px -1px 0px var(--black), 0px 1px 0px var(--black);
+  text-shadow: -2px 0px 0px var(--black), 2px 0px 0px var(--black),
+    0px -2px 0px var(--black), 0px 2px 0px var(--black);
   margin: 0px;
 }
 
 .fName {
   color: var(--green);
   font-size: 100px;
+  margin-top: 25px;
 }
 
 .lName {
   color: var(--pink);
   font-size: 62px;
+  margin-bottom: 50px;
 }
 
-.cardContainer {
+/* .cardContainer {
   display: flex;
   justify-content: space-around;
-}
+} */
 
 button {
   width: 437px;
@@ -27,12 +29,17 @@ button {
 }
 
 .card {
-  border: 1px solid #000000;
-  border-radius: 10px;
+  border: 2px solid #000000;
+  font-family: "Press Start 2P", cursive;
+  background: var(--grey);
 }
 
-.top {
-  width: 437px;
-  background: #86d795;
-  border-bottom: 1px solid #000000;
+.homeCard {
+  width: 351px;
+height: 357px;
+}
+
+.card-header {
+  background: var(--green);
+  border-bottom: 2px solid #000000;
 }
