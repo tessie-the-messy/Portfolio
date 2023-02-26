@@ -16,7 +16,7 @@ const Header = () => {
       </div>
       <div className="navBox">
         <nav>
-          <ul className="d-md-inline-flex">
+          <ul className="navUl d-md-inline-flex">
             <li>Home</li>
             <li>About Me</li>
             <li>Projects</li>
@@ -24,7 +24,7 @@ const Header = () => {
           </ul>
         </nav>
       </div>
-      <div className="fakeUrl">
+      <div className="fakeUrl col-9">
         <h2 className="fakeUrlText">www.WelcomeToMyPortfolio.com</h2>
       </div>
     </header>

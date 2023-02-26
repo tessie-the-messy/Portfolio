@@ -19,7 +19,7 @@ html {
 /* body {
 } */
 
-#root{
+#root {
   background-color: var(--blue);
   height: auto;
   width: auto;
@@ -36,7 +36,7 @@ header {
   border-bottom: 1px solid #000000;
 }
 
-.welcome{
+.welcome {
   margin-top: 2px;
   margin-left: 25px;
   margin-bottom: 0px;
@@ -49,6 +49,7 @@ header {
 
 .navBox {
   background-color: var(--lblue);
+  border-bottom: 1px solid #000000;
 }
 
 nav {
@@ -56,7 +57,11 @@ nav {
 }
 
 ul {
- list-style-type: none;
+  list-style-type: none;
+}
+
+.navUl {
+  margin: 5px;
 }
 
 .headerX {
@@ -64,11 +69,13 @@ ul {
   width: 30px;
   border: 2px solid #000000;
   margin-top: 5px;
-  margin-right: 15px;
+  margin-right: 8px;
 }
 
 .fakeUrl {
-  /* text-align: center; */
+  margin: auto;
+  margin-top: 10px;
+  width: 50%;
   background-color: var(--grey);
   border-radius: 10px;
   border: 1px solid #000000;
@@ -76,6 +83,8 @@ ul {
 
 .fakeUrlText {
   font-size: 20px;
+  margin: 5px;
+  padding-left: 15px;
 }
 
 /* h1 {
