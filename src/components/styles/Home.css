@@ -1,8 +1,6 @@
 h1 {
   font-family: "Monofett", cursive;
   text-align: center;
-  text-shadow: -2px 0px 0px var(--black), 2px 0px 0px var(--black),
-    0px -2px 0px var(--black), 0px 2px 0px var(--black);
   margin: 0px;
 }
 
@@ -10,12 +8,16 @@ h1 {
   color: var(--green);
   font-size: 100px;
   margin-top: 25px;
+  text-shadow: -2px 0px 0px var(--black), 2px 0px 0px var(--black),
+  0px -2px 0px var(--black), 0px 2px 0px var(--black);
 }
 
 .lName {
   color: var(--pink);
   font-size: 62px;
   margin-bottom: 50px;
+  text-shadow: -2px 0px 0px var(--black), 2px 0px 0px var(--black),
+  0px -2px 0px var(--black), 0px 2px 0px var(--black);
 }
 
 /* .cardContainer {
@@ -31,7 +33,7 @@ button {
 .card {
   border: 2px solid #000000;
   font-family: "Press Start 2P", cursive;
-  background: var(--grey);
+  background: var(--lblue);
 }
 
 .homeCard {

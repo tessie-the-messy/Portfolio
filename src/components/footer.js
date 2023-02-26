@@ -4,8 +4,8 @@ import 'bootstrap/dist/css/bootstrap.css';
 const Footer = () => {
     return(
     <footer>
-        <h1 className="foot tessa">Tessa</h1>
-        <h1 className="foot robinson">Robinson</h1>
+        <h5 className="footFName tessa">Tessa</h5>
+        <h5 className="footLName robinson">Robinson</h5>
     </footer>
     );
 };

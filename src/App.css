@@ -115,25 +115,33 @@ ul {
 /* Footer */
 
 footer {
-  padding-top: 50px;
-  text-align: center;
+  padding-top: 25px;
+  padding-right: 25px;
   font-family: "Monofett", cursive;
+  bottom: 0;
+    margin: 4px;
+    position: absolute;
+    right: 0;
 }
 
-.foot {
-  margin: 0;
-  margin-right: 20px;
-  text-align: end;
+.footFName {
+  font-size: 50px;
+  margin-bottom: 0px;
   text-shadow: -1px 0px 0px var(--black), 1px 0px 0px var(--black),
-    0px -1px 0px var(--black), 0px 1px 0px var(--black);
+  0px -1px 0px var(--black), 0px 1px 0px var(--black);
+}
+
+.footLName {
+  font-size: 31px;
+  
+  text-shadow: -1px 0px 0px var(--black), 1px 0px 0px var(--black),
+  0px -1px 0px var(--black), 0px 1px 0px var(--black);
 }
 
 .tessa {
-  font-size: 95px;
   color: var(--green);
 }
 
 .robinson {
-  font-size: 59px;
   color: var(--pink);
 }
