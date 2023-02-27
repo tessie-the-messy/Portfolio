@@ -1,12 +1,7 @@
-h1 {
-  font-family: "Monofett", cursive;
-  text-align: center;
-  margin: 0px;
-}
-
 .fName {
   color: var(--green);
   font-size: 100px;
+  font-family: "Monofett", cursive;
   margin-top: 25px;
   text-shadow: -2px 0px 0px var(--black), 2px 0px 0px var(--black),
   0px -2px 0px var(--black), 0px 2px 0px var(--black);
@@ -15,6 +10,7 @@ h1 {
 .lName {
   color: var(--pink);
   font-size: 62px;
+  font-family: "Monofett", cursive;
   margin-bottom: 50px;
   text-shadow: -2px 0px 0px var(--black), 2px 0px 0px var(--black),
   0px -2px 0px var(--black), 0px 2px 0px var(--black);

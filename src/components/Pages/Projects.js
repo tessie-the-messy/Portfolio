@@ -6,6 +6,7 @@ import prepUrself from "../../assets/prepUrself.png";
 import hogwarts from "../../assets/hogwarts.png";
 import devLog from "../../assets/devLog.png";
 import "../styles/Projects.css";
+import "../../App.css";
 
 const Projects = () => {
   return (

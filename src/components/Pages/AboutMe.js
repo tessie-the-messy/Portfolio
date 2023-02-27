@@ -3,15 +3,15 @@ import 'bootstrap/dist/css/bootstrap.css';
 import Header from "../header";
 import Footer from "../footer";
 import "../styles/AboutMe.css";
+import "../../App.css";
 
 const AboutMe = () => {
   return (
     <div>
       <Header />
       <div>
-        <h2 >About Me</h2>
-        <section className="about">
-          <img src={require("../../assets/TessaPic.jpg")} width="200px" height="250px" />
+        <h1 className="title">About Me</h1>
+        <div className="about">
           <p>
             My name is Tessa, and I'm currently studying to be a web developer
             through DU's Full-Stack Flex program. I recieved my B.A. from the
@@ -21,8 +21,8 @@ const AboutMe = () => {
             typically playing Dead by Daylight, Valorant, and various graphic
             adventures.
           </p>
-        </section>
-        <h3 id="skills">Skills</h3>
+        </div>
+        <h2 id="skills">Skills</h2>
         <section>
           <p>Upon graduation, I will have learned:</p>
           <ul className="skills">
