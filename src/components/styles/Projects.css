@@ -1,20 +1,3 @@
-/* .images {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.small-image {
-    height: 175px;
-    width: 175px;
-    margin: auto;
-} */
-
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-img:hover {
-    opacity: .5;
+.projectCard {
+    margin-bottom: 10px;
 }
