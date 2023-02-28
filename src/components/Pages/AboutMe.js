@@ -15,7 +15,7 @@ const AboutMe = () => {
           <div className="card">
             <div className="card-header">
               <div className="d-flex justify-content-between">
-                <h2 className="card-title">Hello, my name is...</h2>
+                <h2 className="card-title">Hello, my name is Tessa!</h2>
                 <img
                   className="cardX flex-end"
                   src={require("../../assets/x.png")}
@@ -25,11 +25,11 @@ const AboutMe = () => {
             </div>
             <div className="card-body">
               <p>
-                Tessa!! I'm a recent graduate of DU's Full-Stack Flex
-                certificate program. I recieved my B.A. from the University of
+                I'm a recent graduate of DU's Full-Stack Flex
+                certificate program. I received my B.A. from the University of
                 Northern Colorado's Acting Department. Around the time the
                 Pandemic started, I decided I wanted to take a different path in
-                life, and 2 1/2 years later, found myself here! I am an avid
+                life. 2 1/2 years later, I found myself here! I am an avid
                 gamer, typically playing Dead by Daylight, Stardew Valley, and
                 various graphic adventures.
               </p>
