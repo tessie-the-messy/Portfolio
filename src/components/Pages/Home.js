@@ -1,5 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
+import "themesberg/windows-95-ui-kit/css/w95.css";
 import Header from "../header";
 import "../styles/Home.css";
 import "../../App.css";
