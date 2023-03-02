@@ -18,16 +18,16 @@ const Header = () => {
         </div>
         <nav className="navbar card-body navbar-expand-lg">
           <ul className="navbar-nav navbar-nav-hover">
-            <Link to={"/"} class="nav-link">
+            <Link to={"/"} class="nav-link btn border-dark">
               <li className="nav-item">Home</li>
             </Link>
-            <Link to={"/aboutMe"} class="nav-link">
+            <Link to={"/aboutMe"} class="nav-link btn border-dark">
               <li>About Me</li>
             </Link>
-            <Link to={"/projects"} class="nav-link">
+            <Link to={"/projects"} class="nav-link btn border-dark">
               <li>Projects</li>
             </Link>
-            <Link to={"/contact"} class="nav-link">
+            <Link to={"/contact"} class="nav-link btn border-dark">
               <li>Contact</li>
             </Link>
           </ul>

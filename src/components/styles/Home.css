@@ -2,7 +2,7 @@
   color: var(--green);
   font-size: 75px;
   font-family: "Press Start 2P", cursive;
-  margin-top: 50px;
+  margin-top: 60px;
   text-shadow: -2px 0px 0px var(--black), 2px 0px 0px var(--black),
   0px -2px 0px var(--black), 0px 2px 0px var(--black);
 }
@@ -16,12 +16,10 @@
   0px -2px 0px var(--black), 0px 2px 0px var(--black);
 }
 
-/* button {
-  width: 437px;
-  height: 357px;
+.homeContainer {
+  margin-top: 90px;
 }
 
-.card-header {
-  background: var(--green);
-  border-bottom: 2px solid #000000;
-} */
+homeText {
+  
+}
