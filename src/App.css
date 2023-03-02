@@ -71,8 +71,8 @@ nav {
   margin-left: 0px;
 }
 
-.navUl {
-  margin: 5px;
+.nav-link {
+  margin-right: 25px;
 }
 
 .headerX {
@@ -88,7 +88,10 @@ nav {
   margin-top: 10px;
   width: 50%;
   background-color: var(--grey);
-  border: 2px solid #000000;
+  border-top: 2px solid var(--dgrey);
+  border-left: 2px solid var(--dgrey);
+  border-right: 2px solid var(--black);
+  border-bottom: 2px solid var(--black);
 }
 
 .fakeUrlText {
