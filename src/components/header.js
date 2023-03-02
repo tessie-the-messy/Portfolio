@@ -1,26 +1,35 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
     <header>
-      <div className="topBox d-flex">
-        <h2 className="p-2 w-100 welcome">**~Welcome~**</h2>
-        <div className="p-2 flex-shrink-1">
+      <div className="card">
+        <div className="d-flex card-header">
+          <h2 className="card-title welcome">**~Welcome~**</h2>
+          {/* <div className="p-2 flex-shrink-1">
           <img
-            className="headerX"
-            src={require("../assets/x.png")}
-            alt="'x' shaped close button, doesn't actually do anything."
+          className="headerX"
+          src={require("../assets/x.png")}
+          alt="'x' shaped close button, doesn't actually do anything."
           />
+        </div> */}
         </div>
-      </div>
-      <div className="navBox">
-        <nav>
-          <ul className="navUl d-md-inline-flex">
-            <li>Home</li>
-            <li>About Me</li>
-            <li>Projects</li>
-            <li>Contact</li>
+        <nav className="navbar card-body navbar-expand-lg">
+          <ul className="navbar-nav navbar-nav-hover">
+            <Link to={"/"} class="nav-link">
+              <li className="nav-item">Home</li>
+            </Link>
+            <Link to={"/aboutMe"} class="nav-link">
+              <li>About Me</li>
+            </Link>
+            <Link to={"/projects"} class="nav-link">
+              <li>Projects</li>
+            </Link>
+            <Link to={"/contact"} class="nav-link">
+              <li>Contact</li>
+            </Link>
           </ul>
         </nav>
       </div>

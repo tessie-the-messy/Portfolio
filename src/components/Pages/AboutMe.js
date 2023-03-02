@@ -15,7 +15,7 @@ const AboutMe = () => {
           <div className="card">
             <div className="card-header">
               <div className="d-flex justify-content-between">
-                <h2 className="card-title">Hello, my name is Tessa!</h2>
+                <h3 className="card-title">Hello, my name is Tessa!</h3>
                 <img
                   className="cardX flex-end"
                   src={require("../../assets/x.png")}

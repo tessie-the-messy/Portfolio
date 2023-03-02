@@ -3,12 +3,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Monofett&display=swap");
 
 :root {
-  --blue: #6783a4;
-  --lblue: #aab6d3;
-  --green: #86d795;
+  --blue: #6987a2;
+  --lblue: #9db5d1;
+  --green: #6ba78a;
   --pink: #f68e8f;
-  --grey: #d9d9d9;
-  --black: #000000;
+  --grey: #c2c2c2;
+  --dgrey: #a09f9f;
+  --black: #454545;
 }
 
 html {
@@ -29,14 +30,13 @@ h1{
 }
 
 .title {
-  font-family: "Press Start 2P", cursive;
   font-size: 50px;
   margin: 25px;
   margin-top: 25px;
   margin-bottom: 25px;
 }
 
-.card {
+/* .card {
   border: 2px solid #000000;
   font-family: "Press Start 2P", cursive;
   font-size: 30px;
@@ -60,36 +60,15 @@ h1{
   border-left: 2px solid #000000;
   margin-right: 0px;
   margin-left: auto;
-}
+} */
 
 /* Header/Nav */
 header {
   font-family: "Press Start 2P", cursive;
 }
 
-.topBox {
-  background-color: var(--green);
-  border-bottom: 2px solid #000000;
-}
-
-.welcome {
-  margin-top: 2px;
-  margin-left: 25px;
-  margin-bottom: 0px;
-  font-size: 30px;
-}
-
-.navBox {
-  background-color: var(--lblue);
-  border-bottom: 2px solid #000000;
-}
-
 nav {
   margin-left: 0px;
-}
-
-ul {
-  list-style-type: none;
 }
 
 .navUl {
@@ -109,7 +88,6 @@ ul {
   margin-top: 10px;
   width: 50%;
   background-color: var(--grey);
-  border-radius: 10px;
   border: 2px solid #000000;
 }
 
