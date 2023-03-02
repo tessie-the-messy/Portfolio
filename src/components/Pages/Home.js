@@ -16,48 +16,42 @@ const Home = () => {
 
       <div className="container">
         <div className="d-flex justify-content-between">
-          <div className="card homeCard">
+          <div className="card col-3">
             <div className="card-header">
-              <div className="d-flex justify-content-between">
-                <h3 className="card-title">About Me</h3>
-                {/* <img
+              <h4 className="card-title mb-4 mb-lg-1">About Me</h4>
+              {/* <img
                   className="cardX flex-end"
                   src={require("../../assets/x.png")}
                   alt="'x' shaped close button, doesn't actually do anything."
                 /> */}
-              </div>
             </div>
             <div className="card-body">
               <p className="card-text">Learn more about me!</p>
             </div>
           </div>
-          <div className="card homeCard">
+          <div className="card col-3">
             <div className="card-header">
-            <div className="d-flex justify-content-between">
-
-              <h2 className="card-title">Projects</h2>
+              <h4 className="card-title mb-4 mb-lg-1">Projects</h4>
               {/* <img
                   className="cardX flex-end"
                   src={require("../../assets/x.png")}
                   alt="'x' shaped close button, doesn't actually do anything."
                   /> */}
-                  </div>
             </div>
             <div className="card-body">
-              <p className="card-text">Check our some projects I've worked on!</p>
+              <p className="card-text">
+                Check our some projects I've worked on!
+              </p>
             </div>
           </div>
-          <div className="card homeCard">
+          <div className="card col-3">
             <div className="card-header">
-            <div className="d-flex justify-content-between">
-
-              <h2 className="card-title">Contact</h2>
+              <h4 className="card-title mb-4 mb-lg-1">Contact</h4>
               {/* <img
                   className="cardX flex-end"
                   src={require("../../assets/x.png")}
                   alt="'x' shaped close button, doesn't actually do anything."
                   /> */}
-                  </div>
             </div>
             <div className="card-body">
               <p className="card-text">Connect with me!</p>
