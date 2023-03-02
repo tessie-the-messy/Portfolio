@@ -4,6 +4,7 @@ import "themesberg/windows-95-ui-kit/css/w95.css";
 import Header from "../header";
 import "../styles/Home.css";
 import "../../App.css";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -28,8 +29,10 @@ const Home = () => {
             <div className="card-body">
               <p className="card-text">Learn more about me!</p>
               <div class="d-flex justify-content-end mt-3">
+              <Link to={"/aboutMe"}>
                 <button class="btn btn-sm mr-2 border-dark"
                     type="button"><span class="btn-text">OK</span></button>
+                    </Link>
             </div>
             </div>
           </div>
@@ -47,8 +50,10 @@ const Home = () => {
                 Check our some projects I've worked on!
               </p>
               <div class="d-flex justify-content-end mt-3">
+              <Link to={"/projects"}>
                 <button class="btn btn-sm mr-2 border-dark"
                     type="button"><span class="btn-text">OK</span></button>
+                    </Link>
             </div>
             </div>
           </div>
@@ -62,10 +67,12 @@ const Home = () => {
                   /> */}
             </div>
             <div className="card-body">
-              <p className="card-text homeText">Connect with me!</p>
+              <p className="card-text">Connect with me!</p>
               <div class="d-flex justify-content-end mt-3">
+              <Link to={"/contact"}>
                 <button class="btn btn-sm mr-2 border-dark"
                     type="button"><span class="btn-text">OK</span></button>
+                    </Link>
             </div>
             </div>
           </div>

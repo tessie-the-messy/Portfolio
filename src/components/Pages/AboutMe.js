@@ -1,7 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import Header from "../header";
-import Footer from "../footer";
+// import Footer from "../footer";
 import "../styles/AboutMe.css";
 import "../../App.css";
 
@@ -16,11 +16,11 @@ const AboutMe = () => {
             <div className="card-header">
               <div className="d-flex justify-content-between">
                 <h3 className="card-title">Hello, my name is Tessa!</h3>
-                <img
+                {/* <img
                   className="cardX flex-end"
                   src={require("../../assets/x.png")}
                   alt="'x' shaped close button, doesn't actually do anything."
-                />
+                /> */}
               </div>
             </div>
             <div className="card-body">
@@ -40,11 +40,11 @@ const AboutMe = () => {
               <div className="card-header">
                 <div className="d-flex justify-content-between">
                   <h2 className="card-title">Skills</h2>
-                  <img
+                  {/* <img
                     className="cardX flex-end"
                     src={require("../../assets/x.png")}
                     alt="'x' shaped close button, doesn't actually do anything."
-                  />
+                  /> */}
                 </div>
               </div>
               <div className="card-body">
@@ -60,11 +60,11 @@ const AboutMe = () => {
               <div className="card-header">
                 <div className="d-flex justify-content-between">
                   <h2 className="card-title">Education</h2>
-                  <img
+                  {/* <img
                     className="cardX flex-end"
                     src={require("../../assets/x.png")}
                     alt="'x' shaped close button, doesn't actually do anything."
-                  />
+                  /> */}
                 </div>
               </div>
               <div className="card-body"></div>
@@ -72,7 +72,6 @@ const AboutMe = () => {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 };
