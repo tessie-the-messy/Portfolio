@@ -40,6 +40,10 @@ h1{
   color: var(--black);
 }
 
+.itemsContainer {
+  margin-top: 90px;
+}
+
 /* Header/Nav */
 
 .welcome {

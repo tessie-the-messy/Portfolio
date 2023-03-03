@@ -12,7 +12,7 @@ const AboutMe = () => {
       <Header />
       <div>
         <h1 className="title">About Me</h1>
-        <div className="container d-flex">
+        <div className="itemsContainer container d-flex">
           <div className="card col-8">
             <div className="card-header">
               <h3 className="card-title mb-4 mb-lg-1 fs-4">Hello, my name is Tessa!</h3>
