@@ -31,36 +31,14 @@ h1{
 
 .title {
   font-size: 50px;
-  margin: 25px;
-  margin-top: 25px;
-  margin-bottom: 25px;
+  margin-top: 60px;
+  margin-bottom: 50px;
+  color: var(--black);
 }
 
-/* .card {
-  border: 2px solid #000000;
-  font-family: "Press Start 2P", cursive;
-  font-size: 30px;
-  background: var(--lblue);
+.card-text {
+  color: var(--black);
 }
-
-.card-header {
-  background: var(--green);
-  border-bottom: 2px solid #000000;
-  padding: 0px !important;
-}
-
-.card-title {
-  margin: 0px !important;
-  padding-left: 5px;
-}
-
-.cardX{
-  height: 39px;
-  width: 39px;
-  border-left: 2px solid #000000;
-  margin-right: 0px;
-  margin-left: auto;
-} */
 
 /* Header/Nav */
 
@@ -97,7 +75,6 @@ nav {
 }
 
 .fakeUrlText {
-  font-size: 20px;
   margin: 5px;
   padding-left: 15px;
 }

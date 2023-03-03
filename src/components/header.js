@@ -34,7 +34,7 @@ const Header = () => {
         </nav>
       </div>
       <div className="fakeUrl col-9">
-        <h2 className="fakeUrlText">www.WelcomeToMyPortfolio.com</h2>
+        <h4 className="fakeUrlText fs-5">www.WelcomeToMyPortfolio.com</h4>
       </div>
     </header>
   );

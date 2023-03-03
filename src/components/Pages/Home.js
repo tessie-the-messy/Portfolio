@@ -19,7 +19,7 @@ const Home = () => {
         <div className="d-flex justify-content-between">
           <div className="card col-3">
             <div className="card-header">
-              <h4 className="card-title mb-4 mb-lg-1">About Me</h4>
+              <h3 className="card-title mb-4 mb-lg-1 fs-4">About Me</h3>
               {/* <img
                   className="cardX flex-end"
                   src={require("../../assets/x.png")}
@@ -29,16 +29,17 @@ const Home = () => {
             <div className="card-body">
               <p className="card-text">Learn more about me!</p>
               <div class="d-flex justify-content-end mt-3">
-              <Link to={"/aboutMe"}>
-                <button class="btn btn-sm mr-2 border-dark"
-                    type="button"><span class="btn-text">OK</span></button>
-                    </Link>
-            </div>
+                <Link to={"/aboutMe"}>
+                  <button class="btn btn-sm mr-2 border-dark" type="button">
+                    <span class="btn-text">OK</span>
+                  </button>
+                </Link>
+              </div>
             </div>
           </div>
           <div className="card col-3">
             <div className="card-header">
-              <h4 className="card-title mb-4 mb-lg-1">Projects</h4>
+              <h3 className="card-title mb-4 mb-lg-1 fs-4">Projects</h3>
               {/* <img
                   className="cardX flex-end"
                   src={require("../../assets/x.png")}
@@ -50,16 +51,17 @@ const Home = () => {
                 Check our some projects I've worked on!
               </p>
               <div class="d-flex justify-content-end mt-3">
-              <Link to={"/projects"}>
-                <button class="btn btn-sm mr-2 border-dark"
-                    type="button"><span class="btn-text">OK</span></button>
-                    </Link>
-            </div>
+                <Link to={"/projects"}>
+                  <button class="btn btn-sm mr-2 border-dark" type="button">
+                    <span class="btn-text">OK</span>
+                  </button>
+                </Link>
+              </div>
             </div>
           </div>
           <div className="card col-3">
             <div className="card-header">
-              <h4 className="card-title mb-4 mb-lg-1">Contact</h4>
+              <h3 className="card-title mb-4 mb-lg-1 fs-4">Contact</h3>
               {/* <img
                   className="cardX flex-end"
                   src={require("../../assets/x.png")}
@@ -69,11 +71,12 @@ const Home = () => {
             <div className="card-body">
               <p className="card-text">Connect with me!</p>
               <div class="d-flex justify-content-end mt-3">
-              <Link to={"/contact"}>
-                <button class="btn btn-sm mr-2 border-dark"
-                    type="button"><span class="btn-text">OK</span></button>
-                    </Link>
-            </div>
+                <Link to={"/contact"}>
+                  <button class="btn btn-sm mr-2 border-dark" type="button">
+                    <span class="btn-text">OK</span>
+                  </button>
+                </Link>
+              </div>
             </div>
           </div>
         </div>
