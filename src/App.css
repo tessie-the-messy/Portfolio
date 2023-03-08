@@ -1,23 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Monofett&display=swap");
+
+:root {
+  --blue: #6987a2;
+  --lblue: #9db5d1;
+  --green: #6ba78a;
+  --pink: #f68e8f;
+  --grey: #c2c2c2;
+  --dgrey: #a09f9f;
+  --black: #454545;
+}
+
 html {
   scroll-behavior: smooth;
+  background-size: cover;
 }
-body {
-  background-color: #b0d4b8;
+
+#root {
+  background-color: var(--blue);
+  height: auto;
+  width: auto;
+  min-height: 100vh;
+}
+
+/* All Pages */
+h1{
+  text-align: center;
+}
+
+.title {
+  font-size: 50px;
+  margin-top: 60px;
+  margin-bottom: 50px;
+  color: var(--black);
+}
+
+.card-text {
+  color: var(--black);
+}
+
+.itemsContainer {
+  margin-top: 90px;
 }
 
 /* Header/Nav */
-header {
-  background-color: #5d7b6f;
-  color: #eae7d6;
+
+.welcome {
+  font-family: "Press Start 2P", cursive;
+  margin-top: 8px;
 }
 
-h1 {
+nav {
+  margin-left: 0px;
+}
+
+.nav-link {
+  margin-right: 25px;
+}
+
+.headerX {
+  height: 30px;
+  width: 30px;
+  border: 2px solid #000000;
+  margin-top: 5px;
+  margin-right: 8px;
+}
+
+.fakeUrl {
+  margin: auto;
+  margin-top: 10px;
+  width: 50%;
+  background-color: var(--grey);
+  border-top: 2px solid var(--dgrey);
+  border-left: 2px solid var(--dgrey);
+  border-right: 2px solid var(--black);
+  border-bottom: 2px solid var(--black);
+}
+
+.fakeUrlText {
+  margin: 5px;
+  padding-left: 15px;
+}
+
+/* h1 {
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 45px;
   padding-top: 40px;
-}
+} */
 
 .page {
   display: flex;
@@ -32,15 +104,40 @@ h1 {
 
 /* Default settings for all pages */
 
-h2 {
-  color: #5d7b6f;
-  text-align: center;
-  font-size: 35px;
-}
+/* h2 {
+  
+} */
 
 /* Footer */
 
 footer {
-  padding-top: 50px;
-  text-align: center;
+  padding-top: 25px;
+  padding-right: 25px;
+  font-family: "Monofett", cursive;
+  bottom: 0;
+  margin: 4px;
+  position: absolute;
+  right: 0;
+}
+
+.footFName {
+  font-size: 50px;
+  margin-bottom: 0px;
+  text-shadow: -1px 0px 0px var(--black), 1px 0px 0px var(--black),
+    0px -1px 0px var(--black), 0px 1px 0px var(--black);
+}
+
+.footLName {
+  font-size: 31px;
+
+  text-shadow: -1px 0px 0px var(--black), 1px 0px 0px var(--black),
+    0px -1px 0px var(--black), 0px 1px 0px var(--black);
+}
+
+.tessa {
+  color: var(--green);
+}
+
+.robinson {
+  color: var(--pink);
 }
