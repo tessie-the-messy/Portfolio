@@ -17,19 +17,31 @@ const Contact = () => {
               <div className="card-header">
                 <h2 className="card-title">LinkedIn</h2>
               </div>
-              <div className="card-body"></div>
+              <div className="card-body">
+                <button class="btn btn-sm mr-2 border-dark" type="button">
+                  <span class="btn-text">Visit</span>
+                </button>
+              </div>
             </div>
             <div className="card">
               <div className="card-header">
                 <h2 className="card-title">Github</h2>
               </div>
-              <div className="card-body"></div>
+              <div className="card-body">
+                <button class="btn btn-sm mr-2 border-dark" type="button">
+                  <span class="btn-text">Visit</span>
+                </button>
+              </div>
             </div>
             <div className="card">
               <div className="card-header">
                 <h2 className="card-title">E-mail</h2>
               </div>
-              <div className="card-body"></div>
+              <div className="card-body">
+                <button class="btn btn-sm mr-2 border-dark" type="button">
+                  <span class="btn-text">Visit</span>
+                </button>
+              </div>
             </div>
           </div>
           <form className="card col-8">
@@ -57,7 +69,7 @@ const Contact = () => {
               </div>
               <div class="form-group d-flex align-items-center justify-content-between">
                 <label for="company" class="mr-3">
-                  Company:
+                  Company (optional):
                 </label>
                 <input id="company" type="text" class="form-control w-75" />
               </div>
@@ -70,9 +82,10 @@ const Contact = () => {
                   aria-label="Default select example"
                 >
                   <option selected>Choose a reason:</option>
-                  <option value="1">One</option>
-                  <option value="2">Two</option>
-                  <option value="3">Three</option>
+                  <option value="employment">Employment opportunity</option>
+                  <option value="contract">Contract/Freelance inquiry</option>
+                  <option value="collab">Interest in Collaboration</option>
+                  <option value="other">Other</option>
                 </select>
               </div>
               <div class="form-group d-flex align-items-center justify-content-between">
@@ -85,6 +98,9 @@ const Contact = () => {
                   rows="3"
                 ></textarea>
               </div>
+              <button class="btn btn-sm mr-2 border-dark" type="submit">
+                <span class="btn-text">Submit</span>
+              </button>
             </div>
           </form>
         </div>
