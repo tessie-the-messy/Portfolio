@@ -23,7 +23,7 @@ const Projects = () => {
                 Current features include: making posts with or without a picture, seeing other users posts, viewing the daily code wars challenge on the feed page, uploading a profile picture, and updating profile info. 
               </p>
               <div class="d-flex justify-content-end mt-3">
-              <Link to={{ pathname: "https://dev-log.herokuapp.com/" }} target="_blank">
+              <Link to={{ pathname: "https://github.com/btempini/dev-log" }} target="_blank">
                 <button  class="btn mr-2 border-dark" type="button">
                   <span class="btn-text">Check it out!</span>
                 </button>
@@ -40,7 +40,7 @@ const Projects = () => {
             <div className="card-body">
               <p className="card-text">First attempt at a full-stack web application. Upon making an account, users can view profile page with name, email, Student ID, and which Hogwarts House they have been randomly sorted into. Users can also visit schedule page and view their classes.</p>
               <div class="d-flex justify-content-end mt-3">
-              <Link to={{ pathname: "https://dev-log.herokuapp.com/" }} target="_blank">
+              <Link to={{ pathname: "https://github.com/tessie-the-messy/Hogwarts-Enrollment-Portal" }} target="_blank">
                 <button class="btn mr-2 border-dark" type="button">
                   <span class="btn-text">Check it out!</span>
                 </button>
@@ -55,10 +55,12 @@ const Projects = () => {
             <div className="card-body">
               <p className="card-text">First ever web application, created in one week. A meal-planner where users can look up recipes, and add to weekly calendar during specific mealtimes. Used Edamam API for recipe Database.
 </p>
-              <div class="d-flex justify-content-end mt-3">
+              <div class="d-flex justify-content-end">
+              <Link to={{ pathname: "https://github.com/bencha27/prepUrself" }} target="_blank">
                 <button class="btn mr-2 border-dark" type="button">
                   <span class="btn-text">Check it out!</span>
                 </button>
+                </Link>
               </div>
             </div>
           </div>

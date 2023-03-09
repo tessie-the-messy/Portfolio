@@ -17,9 +17,11 @@ const Contact = () => {
                 <h3 className="card-title mb-4 mb-lg-1 fs-4">LinkedIn</h3>
               </div>
               <div className="card-body">
-                <button class="btn btn-sm mr-2 border-dark" type="button">
-                  <span class="btn-text">Visit</span>
-                </button>
+                <div className="d-flex justify-content-end">
+                  <button class="btn btn-sm mr-2 border-dark" type="button">
+                    <span class="btn-text">Visit</span>
+                  </button>
+                </div>
               </div>
             </div>
             <div className="card">
@@ -27,9 +29,11 @@ const Contact = () => {
                 <h3 className="card-title mb-4 mb-lg-1 fs-4">Github</h3>
               </div>
               <div className="card-body">
-                <button class="btn btn-sm mr-2 border-dark" type="button">
-                  <span class="btn-text">Visit</span>
-                </button>
+                <div className="d-flex justify-content-end">
+                  <button class="btn btn-sm mr-2 border-dark" type="button">
+                    <span class="btn-text">Visit</span>
+                  </button>
+                </div>
               </div>
             </div>
             <div className="card">
@@ -37,15 +41,19 @@ const Contact = () => {
                 <h3 className="card-title mb-4 mb-lg-1 fs-4">E-mail</h3>
               </div>
               <div className="card-body">
-                <button class="btn btn-sm mr-2 border-dark" type="button">
-                  <span class="btn-text">Visit</span>
-                </button>
+                {/* <div className="d-flex justify-content-end">
+                  <button class="btn btn-sm mr-2 border-dark" type="button">
+                    <span class="btn-text">Copy</span>
+                  </button>
+                </div> */}
               </div>
             </div>
           </div>
           <form className="card col-8">
             <div className="card-header">
-              <h3 className="card-title mb-4 mb-lg-1 fs-4">Or, Reach out here!</h3>
+              <h3 className="card-title mb-4 mb-lg-1 fs-4">
+                Or, Reach out here!
+              </h3>
             </div>
             <div className="card-body">
               <div class="form-group d-flex align-items-center justify-content-between">
