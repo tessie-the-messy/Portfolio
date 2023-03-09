@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import "themesberg/windows-95-ui-kit/css/w95.css";
 import Header from "../header";
 // import Footer from "../footer";
+import "../styles/AboutMe.css"
 import "../../App.css";
 
 const AboutMe = () => {
@@ -16,17 +17,11 @@ const AboutMe = () => {
             <div className="card-header">
               <h3 className="card-title mb-4 mb-lg-1 fs-4">Hello, my name is Tessa!</h3>
             </div>
-            <div className="card-body">
-              <p className="card-text fs-6">
-                I'm a recent graduate of DU's Full Stack Flex certificate
-                program. I received my B.A. from the University of Northern
-                Colorado's Acting Department. Around the time the Pandemic
-                started, I decided I wanted to take a different path in life. 2
-                1/2 years later, I found myself here! I am an avid gamer,
-                typically playing Dead by Daylight, Stardew Valley, and various
-                graphic adventures.
+            <div className="card-body d-flex flex-column align-items-center">
+              <p className="card-text fs-6 h-100">
+                I'm a recent graduate of the University of Denver's Full Stack Flex certificate program. I worked professionally as an Actress from 2015—2019. Around the time the Pandemic started, I decided I wanted to take a different path in life. Three-ish years later, I found myself here! I am an avid gamer, typically playing Dead by Daylight, Stardew Valley, and various graphic adventures.
               </p>
-              <div class="d-flex justify-content-end mt-3">
+              <div class="align-self-end">
                 <button class="btn mr-2 border-dark"
                     type="button"><span class="btn-text">Cool!</span></button>
             </div>

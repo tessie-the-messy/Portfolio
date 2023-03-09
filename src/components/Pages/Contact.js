@@ -14,7 +14,7 @@ const Contact = () => {
           <div className="container">
             <div className="card">
               <div className="card-header">
-                <h2 className="card-title">LinkedIn</h2>
+                <h3 className="card-title mb-4 mb-lg-1 fs-4">LinkedIn</h3>
               </div>
               <div className="card-body">
                 <button class="btn btn-sm mr-2 border-dark" type="button">
@@ -24,7 +24,7 @@ const Contact = () => {
             </div>
             <div className="card">
               <div className="card-header">
-                <h2 className="card-title">Github</h2>
+                <h3 className="card-title mb-4 mb-lg-1 fs-4">Github</h3>
               </div>
               <div className="card-body">
                 <button class="btn btn-sm mr-2 border-dark" type="button">
@@ -34,7 +34,7 @@ const Contact = () => {
             </div>
             <div className="card">
               <div className="card-header">
-                <h2 className="card-title">E-mail</h2>
+                <h3 className="card-title mb-4 mb-lg-1 fs-4">E-mail</h3>
               </div>
               <div className="card-body">
                 <button class="btn btn-sm mr-2 border-dark" type="button">
@@ -45,7 +45,7 @@ const Contact = () => {
           </div>
           <form className="card col-8">
             <div className="card-header">
-              <h2 className="card-title">Or, Reach out here!</h2>
+              <h3 className="card-title mb-4 mb-lg-1 fs-4">Or, Reach out here!</h3>
             </div>
             <div className="card-body">
               <div class="form-group d-flex align-items-center justify-content-between">
