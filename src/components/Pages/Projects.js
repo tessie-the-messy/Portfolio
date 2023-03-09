@@ -3,7 +3,6 @@ import "bootstrap/dist/css/bootstrap.css";
 import "themesberg/windows-95-ui-kit/css/w95.css";
 import Header from "../header";
 // import Footer from "../footer";
-import "../styles/Projects.css";
 import "../../App.css";
 
 const Projects = () => {
