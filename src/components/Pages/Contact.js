@@ -112,14 +112,14 @@ const Contact = () => {
                   <option value="other">Other</option>
                 </select>
               </div>
-              <div class="form-group d-flex align-items-center justify-content-between">
+              <div class="form-group d-flex justify-content-between">
                 <label for="message" class="mr-3">
                   Message:
                 </label>
                 <textarea
                   class="form-control w-75"
                   id="message"
-                  rows="3"
+                  rows="5"
                 ></textarea>
               </div>
               <div className="align-self-end mt-1">
