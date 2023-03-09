@@ -13,7 +13,7 @@ const Projects = () => {
       <div>
         <h1 className="title">Projects</h1>
         <div className="itemsContainer container d-flex flex-column justify-content-sm-around">
-          <div className="card mb-3">
+          <div className="card mb-1">
             <div className="card-header">
               <h3 className="card-title mb-4 mb-lg-1 fs-4">dev.log</h3>
             </div>
@@ -31,7 +31,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="card mb-3">
+          <div className="card mb-1">
             <div className="card-header">
               <h3 className="card-title mb-4 mb-lg-1 fs-4">
                 Hogwarts Enrollment Portal

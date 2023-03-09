@@ -17,7 +17,7 @@ const AboutMe = () => {
             <div className="card-header">
               <h3 className="card-title mb-4 mb-lg-1 fs-4">Hello, my name is Tessa!</h3>
             </div>
-            <div className="card-body d-flex flex-column align-items-center">
+            <div className="card-body d-flex flex-column">
               <p className="card-text fs-6 h-100">
                 I'm a recent graduate of the University of Denver's Full Stack Flex certificate program. I worked professionally as an Actress from 2015—2019. Around the time the Pandemic started, I decided I wanted to take a different path in life. Three-ish years later, I found myself here! I am an avid gamer, typically playing Dead by Daylight, Stardew Valley, and various graphic adventures.
               </p>
