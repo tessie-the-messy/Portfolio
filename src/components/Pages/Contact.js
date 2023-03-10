@@ -74,31 +74,31 @@ const Contact = () => {
             </div>
             <div className="card-body d-flex flex-column justify-content-between">
               <div class="form-group d-flex align-items-center justify-content-between">
-                <label for="firstname" class="mr-3">
+                <label htmlFor="firstname" class="card-text mr-3">
                   First Name:
                 </label>
                 <input id="firstname" type="text" class="form-control w-75" />
               </div>
               <div class="form-group d-flex align-items-center justify-content-between">
-                <label for="lastname" class="mr-3">
+                <label htmlFor="lastname" class="card-text mr-3">
                   Last Name:
                 </label>
                 <input id="lastname" type="text" class="form-control w-75" />
               </div>
               <div class="form-group d-flex align-items-center justify-content-between">
-                <label for="email" class="mr-3">
+                <label htmlFor="email" class="card-text mr-3">
                   E-mail:
                 </label>
                 <input id="email" type="text" class="form-control w-75" />
               </div>
               <div class="form-group d-flex align-items-center justify-content-between">
-                <label for="company" class="mr-3">
+                <label htmlFor="company" class="card-text mr-3">
                   Company (optional):
                 </label>
                 <input id="company" type="text" class="form-control w-75" />
               </div>
               <div class="form-group d-flex align-items-center justify-content-between">
-                <label for="company" class="mr-3">
+                <label htmlFor="company" class="card-text mr-3">
                   Reason for reaching out:
                 </label>
                 <select
@@ -113,7 +113,7 @@ const Contact = () => {
                 </select>
               </div>
               <div class="form-group d-flex justify-content-between">
-                <label for="message" class="mr-3">
+                <label htmlFor="message" class="card-text mr-3">
                   Message:
                 </label>
                 <textarea

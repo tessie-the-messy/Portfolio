@@ -5,7 +5,7 @@
   --lblue: #9db5d1;
   --green: #6ba78a;
   --pink: #f68e8f;
-  --grey: #d7d7d7;
+  --grey: #c8c8c8;
   --dgrey: #a09f9f;
   --black: #4f4f4f;
 }
@@ -2409,6 +2409,10 @@
   border-bottom: 2px solid var(--grey);
 }
 
+.card-text {
+    font-size: 12px;
+}
+
 .card-footer {
   padding: 10px 7px;
 }
@@ -2524,7 +2528,8 @@ label {
 }
 
 .form-control,
-.form-control:focus {
+.form-control:focus,
+.form-control::after {
   font-size: 0.6rem;
   color: var(--black);
   padding: 0.3rem;
