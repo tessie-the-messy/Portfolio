@@ -30,7 +30,7 @@ const Home = () => {
               <p className="card-text">Learn more about me!</p>
               <div class="d-flex justify-content-end mt-3">
                 <Link to={"/aboutMe"}>
-                  <button class="btn btn-sm mr-2 border-dark" type="button">
+                  <button class="btn btn-sm border-dark" type="button">
                     <span class="btn-text">OK</span>
                   </button>
                 </Link>
