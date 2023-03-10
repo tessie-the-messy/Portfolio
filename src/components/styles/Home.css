@@ -15,7 +15,3 @@
   text-shadow: -2px 0px 0px var(--black), 2px 0px 0px var(--black),
   0px -2px 0px var(--black), 0px 2px 0px var(--black);
 }
-
-.homeContainer {
-  margin-top: 90px;
-}

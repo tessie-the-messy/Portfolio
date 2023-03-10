@@ -15,7 +15,7 @@ const Home = () => {
         <h1 className="lName">Robinson</h1>
       </div>
 
-      <div className="container homeContainer">
+      <div className="container">
         <div className="d-flex justify-content-between">
           <div className="card col-3">
             <div className="card-header">

@@ -2,17 +2,16 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import "themesberg/windows-95-ui-kit/css/w95.css";
 import Header from "../header";
-// import Footer from "../footer";
-import "../styles/AboutMe.css"
+import Footer from "../footer";
 import "../../App.css";
 
 const AboutMe = () => {
   return (
-    <div>
+    <div className="d-flex flex-column vh-100">
       <Header />
-      <div>
+      <div className="flex-grow-1">
         <h1 className="title">About Me</h1>
-        <div className="itemsContainer container d-flex">
+        <div className="itemsContainer container d-flex flex-grow-1">
           <div className="card col-8">
             <div className="card-header">
               <h3 className="card-title mb-4 mb-lg-1 fs-4">Hello, my name is Tessa!</h3>
@@ -53,6 +52,7 @@ const AboutMe = () => {
           </div>
         </div>
       </div>
+      <Footer className="mt-auto"/>
     </div>
   );
 };

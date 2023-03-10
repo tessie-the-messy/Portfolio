@@ -2,7 +2,7 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import "themesberg/windows-95-ui-kit/css/w95.css";
 import Header from "../header";
-// import Footer from "../footer";
+import Footer from "../footer";
 import "../../App.css";
 import { Link } from "react-router-dom";
 
@@ -12,7 +12,7 @@ const Projects = () => {
       <Header />
       <div>
         <h1 className="title">Projects</h1>
-        <div className="itemsContainer container d-flex flex-column justify-content-sm-around">
+        <div className="itemsContainer container d-flex">
           <div className="card mb-1">
             <div className="card-header">
               <h3 className="card-title mb-4 mb-lg-1 fs-4">dev.log</h3>
@@ -66,6 +66,7 @@ const Projects = () => {
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };

@@ -24,8 +24,14 @@ html {
   min-height: 100vh;
 }
 
+html,
+body,
+#root {
+  height: 100%;
+}
+
 /* All Pages */
-h1{
+h1 {
   text-align: center;
 }
 
@@ -36,12 +42,13 @@ h1{
   color: var(--black);
 }
 
-.card-text {
-  color: var(--black);
-}
-
 .itemsContainer {
   margin-top: 90px;
+  min-height: 0;
+}
+
+.card-text {
+  color: var(--black);
 }
 
 /* Header/Nav */
@@ -73,16 +80,8 @@ h1{
 .fakeUrlText {
   margin: 5px;
   padding-left: 15px;
-  color: var(--black)
+  color: var(--black);
 }
-
-/* h1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 45px;
-  padding-top: 40px;
-} */
 
 .page {
   display: flex;
@@ -98,33 +97,22 @@ h1{
 /* Footer */
 
 footer {
-  padding-top: 25px;
-  padding-right: 25px;
   font-family: "Monofett", cursive;
-  bottom: 0;
-  margin: 4px;
-  position: absolute;
-  right: 0;
+  margin-right: 10px;
 }
 
 .footFName {
-  font-size: 50px;
-  margin-bottom: 0px;
+  font-size: 40px;
+  font-family: "Press Start 2P", cursive;
+  color: var(--pink);
   text-shadow: -1px 0px 0px var(--black), 1px 0px 0px var(--black),
     0px -1px 0px var(--black), 0px 1px 0px var(--black);
 }
 
 .footLName {
-  font-size: 31px;
-
+  font-size: 25px;
+  font-family: "Press Start 2P", cursive;
+  color: var(--green);
   text-shadow: -1px 0px 0px var(--black), 1px 0px 0px var(--black),
     0px -1px 0px var(--black), 0px 1px 0px var(--black);
-}
-
-.tessa {
-  color: var(--green);
-}
-
-.robinson {
-  color: var(--pink);
 }

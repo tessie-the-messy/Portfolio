@@ -2,18 +2,18 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import Header from "../header";
 import ReachOut from "../reachout";
-// import Footer from "../footer";
+import Footer from "../footer";
 import "../../App.css";
 import { Link } from "react-router-dom";
 
 const Contact = () => {
 
   return (
-    <div>
+    <div className="d-flex flex-column vh-100">
       <Header />
-      <div>
+      <div className="flex-grow-1">
         <h1 className="title">Contact</h1>
-        <div className="container d-flex itemsContainer">
+        <div className="container d-flex itemsContainer  flex-grow-1">
           <div className="container d-flex flex-column">
             <div className="card mb-2">
               <div className="card-header">
@@ -71,6 +71,7 @@ const Contact = () => {
           <ReachOut />
         </div>
       </div>
+      <Footer className="mt-auto"/>
     </div>
   );
 };
