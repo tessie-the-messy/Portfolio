@@ -105,7 +105,7 @@ const ReachOut = () => {
           <button
             type="submit"
             value="Send"
-            className="btn btn-sm mr-2 border-dark"
+            className="btn mr-2 border-dark"
           >
             <span className="btn-text">Submit</span>
           </button>
