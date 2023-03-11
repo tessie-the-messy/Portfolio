@@ -1,11 +1,27 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 
 const ReachOut = () => {
   const form = useRef();
 
+  const [formSent, setFormSent] = useState(false);
+  const [invalidForm, setFormInvalid] = useState(false);
+
   const sendEmail = (e) => {
     e.preventDefault();
+
+    const { user_name, user_surname, user_email, user_reason, message } =
+      e.target.elements;
+    if (
+      !user_name.value ||
+      !user_surname.value ||
+      !user_email.value ||
+      user_reason.value === "Choose a reason:" ||
+      !message.value
+    ) {
+      setFormInvalid(true);
+      return;
+    }
 
     emailjs
       .sendForm(
@@ -16,6 +32,7 @@ const ReachOut = () => {
       )
       .then(
         (result) => {
+          setFormSent(true);
           console.log(result.text);
         },
         (error) => {
@@ -102,17 +119,33 @@ const ReachOut = () => {
           ></textarea>
         </div>
         <div className="align-self-end mt-1">
-          <button
-            type="submit"
-            value="Send"
-            className="btn mr-2 border-dark"
-          >
+          <button type="submit" value="Send" className="btn mr-2 border-dark">
             <span className="btn-text">Submit</span>
           </button>
         </div>
       </form>
+      {formSent && <SentModal />}
+      {invalidForm && <InvalidModal />}
     </div>
   );
+
+  function SentModal() {
+    return (
+      <div>
+        <h2>Form sent!</h2>
+        <p>Thank you for reaching out!</p>
+      </div>
+    );
+  }
+
+  function InvalidModal() {
+    return (
+      <div>
+        <h2>Invalid form input</h2>
+        <p>Please fill out all fields correctly</p>
+      </div>
+    );
+  }
 };
 
 export default ReachOut;
