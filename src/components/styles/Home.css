@@ -1,5 +1,5 @@
 .fName {
-  color: var(--green);
+  color: var(--pink);
   font-size: 95px;
   font-family: "Press Start 2P", cursive;
   margin-top: 75px;
@@ -8,14 +8,10 @@
 }
 
 .lName {
-  color: var(--pink);
+  color: var(--green);
   font-size: 58px;
   font-family: "Press Start 2P", cursive;
   margin-bottom: 110px;
   text-shadow: -2px 0px 0px var(--black), 2px 0px 0px var(--black),
   0px -2px 0px var(--black), 0px 2px 0px var(--black);
-}
-
-.homeContainer {
-  margin-top: 90px;
 }

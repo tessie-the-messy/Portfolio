@@ -1,13 +1,14 @@
-// import React from 'react';
-// import 'bootstrap/dist/css/bootstrap.css';
+import React from "react";
 
-// const Footer = () => {
-//     return(
-//     <footer>
-//         <h5 className="footFName tessa">Tessa</h5>
-//         <h5 className="footLName robinson">Robinson</h5>
-//     </footer>
-//     );
-// };
+const Footer = () => {
+  return (
+    <div className="d-flex justify-content-end footer">
+      <footer>
+        <h5 className="footFName mb-0">Tessa</h5>
+        <h5 className="footLName">Robinson</h5>
+      </footer>
+    </div>
+  );
+};
 
-// export default Footer;
+export default Footer;

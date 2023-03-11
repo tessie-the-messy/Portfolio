@@ -7,9 +7,9 @@
   --lblue: #9db5d1;
   --green: #6ba78a;
   --pink: #f68e8f;
-  --grey: #c2c2c2;
+  --grey: #d7d7d7;
   --dgrey: #a09f9f;
-  --black: #454545;
+  --black: #4f4f4f;
 }
 
 html {
@@ -24,9 +24,19 @@ html {
   min-height: 100vh;
 }
 
+html,
+body,
+#root {
+  height: 100%;
+}
+
 /* All Pages */
-h1{
+h1 {
   text-align: center;
+}
+
+p {
+  color: var(--black)
 }
 
 .title {
@@ -36,12 +46,13 @@ h1{
   color: var(--black);
 }
 
-.card-text {
-  color: var(--black);
-}
-
 .itemsContainer {
   margin-top: 90px;
+  min-height: 0;
+}
+
+.card-text {
+  color: var(--black);
 }
 
 /* Header/Nav */
@@ -51,21 +62,13 @@ h1{
   margin-top: 8px;
 }
 
-nav {
-  margin-left: 0px;
-}
-
-.nav-link {
-  margin-right: 25px;
-}
-
-.headerX {
+/* .headerX {
   height: 30px;
   width: 30px;
   border: 2px solid #000000;
   margin-top: 5px;
   margin-right: 8px;
-}
+} */
 
 .fakeUrl {
   margin: auto;
@@ -81,15 +84,8 @@ nav {
 .fakeUrlText {
   margin: 5px;
   padding-left: 15px;
+  color: var(--black);
 }
-
-/* h1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 45px;
-  padding-top: 40px;
-} */
 
 .page {
   display: flex;
@@ -102,42 +98,25 @@ nav {
   padding: 10px;
 }
 
-/* Default settings for all pages */
-
-/* h2 {
-  
-} */
-
 /* Footer */
 
 footer {
-  padding-top: 25px;
-  padding-right: 25px;
   font-family: "Monofett", cursive;
-  bottom: 0;
-  margin: 4px;
-  position: absolute;
-  right: 0;
+  margin-right: 10px;
 }
 
 .footFName {
-  font-size: 50px;
-  margin-bottom: 0px;
+  font-size: 40px;
+  font-family: "Press Start 2P", cursive;
+  color: var(--pink);
   text-shadow: -1px 0px 0px var(--black), 1px 0px 0px var(--black),
     0px -1px 0px var(--black), 0px 1px 0px var(--black);
 }
 
 .footLName {
-  font-size: 31px;
-
+  font-size: 25px;
+  font-family: "Press Start 2P", cursive;
+  color: var(--green);
   text-shadow: -1px 0px 0px var(--black), 1px 0px 0px var(--black),
     0px -1px 0px var(--black), 0px 1px 0px var(--black);
-}
-
-.tessa {
-  color: var(--green);
-}
-
-.robinson {
-  color: var(--pink);
 }

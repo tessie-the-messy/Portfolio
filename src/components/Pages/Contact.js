@@ -1,17 +1,19 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import Header from "../header";
-// import Footer from "../footer";
+import ReachOut from "../reachout";
+import Footer from "../footer";
 import "../../App.css";
 import { Link } from "react-router-dom";
 
 const Contact = () => {
+
   return (
-    <div>
+    <div className="d-flex flex-column vh-100">
       <Header />
-      <div>
+      <div className="flex-grow-1">
         <h1 className="title">Contact</h1>
-        <div className="container d-flex itemsContainer">
+        <div className="container d-flex itemsContainer  flex-grow-1">
           <div className="container d-flex flex-column">
             <div className="card mb-2">
               <div className="card-header">
@@ -66,71 +68,10 @@ const Contact = () => {
               </div>
             </div>
           </div>
-          <form className="card col-8">
-            <div className="card-header">
-              <h3 className="card-title mb-4 mb-lg-1 fs-4">
-                Or, Reach out here!
-              </h3>
-            </div>
-            <div className="card-body d-flex flex-column justify-content-between">
-              <div class="form-group d-flex align-items-center justify-content-between">
-                <label for="firstname" class="mr-3">
-                  First Name:
-                </label>
-                <input id="firstname" type="text" class="form-control w-75" />
-              </div>
-              <div class="form-group d-flex align-items-center justify-content-between">
-                <label for="lastname" class="mr-3">
-                  Last Name:
-                </label>
-                <input id="lastname" type="text" class="form-control w-75" />
-              </div>
-              <div class="form-group d-flex align-items-center justify-content-between">
-                <label for="email" class="mr-3">
-                  E-mail:
-                </label>
-                <input id="email" type="text" class="form-control w-75" />
-              </div>
-              <div class="form-group d-flex align-items-center justify-content-between">
-                <label for="company" class="mr-3">
-                  Company (optional):
-                </label>
-                <input id="company" type="text" class="form-control w-75" />
-              </div>
-              <div class="form-group d-flex align-items-center justify-content-between">
-                <label for="company" class="mr-3">
-                  Reason for reaching out:
-                </label>
-                <select
-                  class="form-control w-75"
-                  aria-label="Default select example"
-                >
-                  <option selected>Choose a reason:</option>
-                  <option value="employment">Employment opportunity</option>
-                  <option value="contract">Contract/Freelance inquiry</option>
-                  <option value="collab">Interest in Collaboration</option>
-                  <option value="other">Other</option>
-                </select>
-              </div>
-              <div class="form-group d-flex justify-content-between">
-                <label for="message" class="mr-3">
-                  Message:
-                </label>
-                <textarea
-                  class="form-control w-75"
-                  id="message"
-                  rows="5"
-                ></textarea>
-              </div>
-              <div className="align-self-end mt-1">
-                <button class="btn btn-sm mr-2 border-dark">
-                  <span class="btn-text">Submit</span>
-                </button>
-              </div>
-            </div>
-          </form>
+          <ReachOut />
         </div>
       </div>
+      <Footer className="mt-auto"/>
     </div>
   );
 };
