@@ -35,6 +35,10 @@ h1 {
   text-align: center;
 }
 
+p {
+  color: var(--black)
+}
+
 .title {
   font-size: 50px;
   margin-top: 60px;

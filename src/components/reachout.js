@@ -34,6 +34,7 @@ const ReachOut = () => {
         (result) => {
           setFormSent(true);
           console.log(result.text);
+          setFormInvalid(false);
         },
         (error) => {
           console.log(error.text);
@@ -118,31 +119,32 @@ const ReachOut = () => {
             rows="5"
           ></textarea>
         </div>
+        
+        {formSent && <SentModal />}
+        {invalidForm && <InvalidModal />}
+        
         <div className="align-self-end mt-1">
           <button type="submit" value="Send" className="btn mr-2 border-dark">
             <span className="btn-text">Submit</span>
           </button>
         </div>
       </form>
-      {formSent && <SentModal />}
-      {invalidForm && <InvalidModal />}
+      <div></div>
     </div>
   );
 
   function SentModal() {
     return (
-      <div>
-        <h2>Form sent!</h2>
-        <p>Thank you for reaching out!</p>
+      <div className="align-self-end">
+        <p className="fw-semibold">Thank you for reaching out!</p>
       </div>
     );
   }
 
   function InvalidModal() {
     return (
-      <div>
-        <h2>Invalid form input</h2>
-        <p>Please fill out all fields correctly</p>
+      <div className="align-self-end">
+        <p className="fw-semibold">Please fill out all fields correctly.</p>
       </div>
     );
   }
