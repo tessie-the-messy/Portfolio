@@ -1,10 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.css";
 import "themesberg/windows-95-ui-kit/css/w95.css";
-import Header from "../header";
-import "../styles/Home.css";
 import "../../App.css";
-import { Link } from "react-router-dom";
+import "../../refw95.css";
+import "../styles/Home.css";
+import Header from "../header";
 
 const Home = () => {
   return (

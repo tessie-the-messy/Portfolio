@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Monofett&display=swap");
+
 :root {
   --blue: #6987a2;
   --lblue: #9db5d1;
@@ -99,6 +101,7 @@ p {
 /* Footer */
 
 footer {
+  font-family: "Monofett", cursive;
   margin-right: 10px;
 }
 
