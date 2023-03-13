@@ -7,6 +7,8 @@
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 
 ### Personal website and portfolio of my web development projects. Learn a little bit about me, check out some apps I've worked on, or reach out through one of my socials or directly through the site!
+
+Visit the deployment at: http://tessarobinson.live/
 <br/>
 View deployed site at: https://tessie-the-messy.github.io/Portfolio/#/
 <br/>
