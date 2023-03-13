@@ -10,8 +10,6 @@
 
 Visit the deployment at: http://tessarobinson.live/
 <br/>
-View deployed site at: https://tessie-the-messy.github.io/Portfolio/#/
-<br/>
 <img align="center" src="./src/assets/preview.png" />
 <br/>
 
