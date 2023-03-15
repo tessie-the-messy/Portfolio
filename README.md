@@ -18,6 +18,11 @@ Visit the deployment at: http://tessarobinson.live/
   - [Bootstrap](https://getbootstrap.com/)
   - [Windows 95 UI Kit](https://themesberg.com/product/ui-kit/windows-95-ui-kit)
   - [EmailJS](https://www.emailjs.com/)
+  
+## Process
+Check out the original wireframe [here](https://excalidraw.com/#json=goD8kgSjiwAc8q0zDElF2,P0EpLi9jVHC4_-j-jXp80Q)
+
+Check out the original Figma prototype [here](https://www.figma.com/proto/z1VsIUNpgw7SjwzsS16dmf/Portfolio-Website?node-id=1-2&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A2)
 
 ## License: MIT license
 
