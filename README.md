@@ -24,6 +24,8 @@ Check out the original wireframe [here](https://excalidraw.com/#json=goD8kgSjiwA
 
 Check out the original Figma prototype [here](https://www.figma.com/proto/z1VsIUNpgw7SjwzsS16dmf/Portfolio-Website?node-id=1-2&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A2)
 
+UP NEXT: Mobile responsiveness!
+
 ## License: MIT license
 
     For more information visit https://opensource.org/licenses/MIT
